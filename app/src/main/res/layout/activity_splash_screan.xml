@@ -5,19 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity2"
-    >
+    tools:context=".SplashScreanActivity">
 
-    <TextView
-
+    <ImageView
+        android:id="@+id/splash_screen"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:text="ali"
-        android:textSize="40sp"
-        android:textColor="@color/black"
+        app:srcCompat="@drawable/splash_screen"
+        android:scaleType="fitXY"
         />
 </androidx.constraintlayout.widget.ConstraintLayout>
