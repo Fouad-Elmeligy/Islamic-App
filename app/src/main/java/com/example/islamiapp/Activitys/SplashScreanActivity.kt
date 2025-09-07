@@ -1,13 +1,12 @@
-package com.example.islamiapp
+package com.example.islamiapp.Activitys
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.example.islamiapp.Activitys.HomeScreenActivity
+import com.example.islamiapp.R
 
 class SplashScreanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -22,7 +21,7 @@ class SplashScreanActivity : AppCompatActivity() {
 
         }
     fun navigaionToHomeScreen(){
-        val intent=Intent(this,HomeScreenActivity::class.java)
+        val intent= Intent(this, HomeScreenActivity::class.java)
         startActivity(intent)
         finish()
     }
