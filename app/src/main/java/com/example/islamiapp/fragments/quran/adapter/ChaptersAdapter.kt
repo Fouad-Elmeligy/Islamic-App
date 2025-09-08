@@ -37,8 +37,8 @@ class ChaptersAdapter(private val chapters: List<ChaptersDM>) :
         fun bind(item: ChaptersDM, position: Int,onChapterClickListener: onChapterClickListener) {
             binding.chapterIndexView.text = item.index.toString()
             binding.chapterLengthTextView.text = "${item.length} Verses"
-            binding.chapterNameInArabic.text = item.nameInArabic
-            binding.chapterNameInEnglish.text = item.nameInEnglish
+            binding.hadethNameInArabic.text=item.nameInArabic
+            binding.hadethNameInEnglish.text = item.nameInEnglish
             binding.root.setOnClickListener {
                 onChapterClickListener.onChapterClick(item,position)
             }

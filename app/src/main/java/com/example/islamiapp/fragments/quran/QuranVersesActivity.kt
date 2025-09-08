@@ -1,4 +1,5 @@
-package com.example.islamiapp.Activitys
+package com.example.islamiapp.fragments.quran
+
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.islamiapp.Activitys.Adapters.VersesAdapter
@@ -34,6 +35,3 @@ class QuranVersesActivity : AppCompatActivity() {
         it.readLines()}
         }
     }
-
-
-

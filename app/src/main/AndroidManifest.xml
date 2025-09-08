@@ -13,7 +13,10 @@
         android:theme="@style/Theme.IslamiApp"
         tools:targetApi="31">
         <activity
-            android:name=".Activitys.QuranVersesActivity"
+            android:name=".fragments.Hadeth.HadethDetailsScreanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragments.quran.QuranVersesActivity"
             android:exported="false" />
         <activity
             android:name=".Activitys.HomeScreenActivity"

@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.example.islamiapp.R
 import com.example.islamiapp.databinding.ActivityHomeScreenBinding
-import com.example.islamiapp.fragments.HadethFragment
+import com.example.islamiapp.fragments.Hadeth.HadethFragment
 import com.example.islamiapp.fragments.RadioFragment
 import com.example.islamiapp.fragments.SebhaFragment
 import com.example.islamiapp.fragments.quran.QuranFragment
@@ -18,7 +18,7 @@ class HomeScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home_screen)
         binding = ActivityHomeScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        pushFragments(QuranFragment())
+
         initViews()
 
     }
@@ -44,6 +44,7 @@ class HomeScreenActivity : AppCompatActivity() {
             }
             return@setOnItemSelectedListener true
         }
+        binding.islamicBottomNavView.selectedItemId=R.id.navigation_quran
     }
 
     fun pushFragments(fragment: Fragment) {

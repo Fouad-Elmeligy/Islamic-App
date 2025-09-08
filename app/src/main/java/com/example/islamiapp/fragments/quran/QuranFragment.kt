@@ -6,7 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.example.islamiapp.Activitys.QuranVersesActivity
+import com.example.islamiapp.fragments.quran.QuranVersesActivity
 import com.example.islamiapp.databinding.FragmentQuranBinding
 import com.example.islamiapp.fragments.quran.DataModel.ChaptersDM
 import com.example.islamiapp.fragments.quran.OnChapterClik.onChapterClickListener
