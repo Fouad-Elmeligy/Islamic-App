@@ -7,9 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearSnapHelper
-import com.example.islamiapp.fragments.Hadeth.HadethDetailsScreanActivity
 import com.example.islamiapp.databinding.FragmentHadethBinding
-import com.example.islamiapp.fragments.Hadeth.HadethDM.HadethAdaper.HadethAdapter
+import com.example.islamiapp.fragments.Hadeth.HadethAdaper.HadethAdapter
 import com.example.islamiapp.fragments.Hadeth.HadethDM.HadethDM
 import com.example.islamiapp.fragments.Hadeth.Keywords.Keywords
 import com.example.islamiapp.fragments.Hadeth.OnItemHadthClick.OnItemHadethClick
